@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Bundle & Save</title>
+    <link rel="stylesheet" href="Interactive_Box.css">
+    <script src="Interactive_Box.js" defer></script>
+</head>
+
+<body>
+    <div class="bundle-container">
+        <h2 class="section-title">Bundle & Save</h2>
+
+        <div class="bundle-option selected" data-value="1">
+            <div class="bundle-header">
+                <label>
+                    <input type="radio" name="bundle" value="1" checked> 1 Pair <br>
+                    <strong>DKK 195.00</strong>
+                </label>
+                <span class="discount">50% OFF</span>
+            </div>
+            <div class="pair-options show" id="options1">
+                <div class="size">
+                    <span>Size</span>
+                    <span>Colour</span>
+                </div>
+                <div class="adjust">
+                    <span class="ColourCount">#1</span>
+                    <select>
+                        <option>S</option>
+                        <option>M</option>
+                        <option>L</option>
+                    </select>
+                    <select>
+                        <option>Colour</option>
+                        <option>Black</option>
+                        <option>White</option>
+                        <option>Blue</option>
+                    </select>
+                </div>
+                <div class="adjust">
+                    <span class="ColourCount">#2</span>
+                    <select>
+                        <option>S</option>
+                        <option>M</option>
+                        <option>L</option>
+                    </select>
+                    <select>
+                        <option>Colour</option>
+                        <option>Black</option>
+                        <option>White</option>
+                        <option>Blue</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div class="bundle-option" data-value="2">
+            <div class="bundle-header">
+                <label>
+                    <input type="radio" name="bundle" value="2"> 2 Pair <br> <strong>DKK 345.00</strong>
+                </label>
+                <div>
+                    <strike style="font-size: small;color: #ccc;">DKK 195.00</strike>
+                </div>
+                <div class="right-badges" style="text-align: center;">
+                    <div>
+                        <span class="most-popular">Most Popular</span><br>
+                        <span class="discount">40% OFF</span>
+                    </div>
+                </div>
+            </div>
+            <div class="pair-options" id="options2">
+                <div class="adjust">
+                    <span class="ColourCount">#1</span>
+                    <select>
+                        <option>S</option>
+                        <option>M</option>
+                        <option>L</option>
+                    </select>
+                    <select>
+                        <option>Colour</option>
+                        <option>Black</option>
+                        <option>White</option>
+                        <option>Blue</option>
+                    </select>
+                </div>
+                <div class="adjust">
+                    <span class="ColourCount">#2</span>
+                    <select>
+                        <option>S</option>
+                        <option>M</option>
+                        <option>L</option>
+                    </select>
+                    <select>
+                        <option>Colour</option>
+                        <option>Black</option>
+                        <option>White</option>
+                        <option>Blue</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div class="bundle-option" data-value="3">
+            <div class="bundle-header">
+                <label>
+                    <input type="radio" name="bundle" value="3"> 3 Pair <br> <strong>DKK 528.00</strong>
+                </label>
+                <span class="discount">60% OFF</span>
+            </div>
+            <div class="pair-options" id="options3">
+                <div class="adjust">
+                    <span class="ColourCount">#1</span>
+                    <select>
+                        <option>S</option>
+                        <option>M</option>
+                        <option>L</option>
+                    </select>
+                    <select>
+                        <option>Colour</option>
+                        <option>Black</option>
+                        <option>White</option>
+                        <option>Blue</option>
+                    </select>
+                </div>
+                <div class="adjust">
+                    <span class="ColourCount">#2</span>
+                    <select>
+                        <option>S</option>
+                        <option>M</option>
+                        <option>L</option>
+                    </select>
+                    <select>
+                        <option>Colour</option>
+                        <option>Black</option>
+                        <option>White</option>
+                        <option>Blue</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <span>Free 2 Day Shipping</span>
+            <span>Total: <span id="totalPrice">DKK 345.00</span></span>
+        </div>
+
+        <div class="button-footer">
+            <button class="add-btn">+ Add to Cart</button>
+            <span class="powered-by">@Powered by Pumber</span>
+        </div>
+    </div>
+</body>
+
+</html>
